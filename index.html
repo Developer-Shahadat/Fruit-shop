@@ -24,8 +24,9 @@
     <title>Fruit Brust</title>
 </head>
 <body class=".font-lato">
-    <header class="max-w-screen-xl mx-auto">
-        <!-- Nav-bar -->
+    <!-- Nav-bar -->
+    <header class="container mx-auto">
+        
         <nav>
             <div class="navbar  flex-row-reverse justify-between items-center lg:flex-row lg:bg-[#F85559] lg:rounded-full md:bg-[#F85559] md:flex-row md:rounded-full">
                 <div class="navbar-center">
@@ -56,17 +57,77 @@
                 </div>
                 <div class="flex   md:flex-row lg:flex-row">
                     <img src="images/logo.png" alt="">
-                    <a class="btn btn-ghost normal-case  text-3xl lg:text-4xl font-bold text-black md:text-white lg:text-white ">Fruit Burst</a>
+                    <a class="btn btn-ghost normal-case  text-3xl lg:text-4xl font-bold text-black md:text-white lg:text-white ">Fruit Brust</a>
                 </div>
                 <div class="navbar-end hidden md:block lg:block ">
                   <div class="md:flex justify-center md:items-center lg:flex md:justify-center items-center">
-                    <input class="rounded-3xl md:pl-6 lg:p-2 lg:m-2  lg:w-72 lg:pl-6 lg:p-2 lg:m-2  lg:w-72 text-[#121212]" type="text" placeholder="search here">
+                    <input class="rounded-3xl md:pl-6 md:p-2 md:m-2  md:w-72 lg:pl-6 lg:p-2 lg:m-2  lg:w-72 text-[#121212]" type="text" placeholder="search here">
                     <i class=" fa-solid fa-magnifying-glass relative -left-12"></i>
                   </div>
                 </div>
               </div>
         </nav>
     </header>
-    <main class="container mx-auto"></main>
+    <main class="container mx-auto">
+        <!-- Banner/Carousel Section -->
+        <section class="mt-10">
+            <div>
+                <div class="carousel w-full">
+                    <!-- First Carousel -->
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img class="bg-[#121212]" src="images/banner1.png" class="w-full"/>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96 ">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <div class="relative -top-20">
+                            <h2  class=" block text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                            <p class="block lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                            <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                        </div>
+                        <!-- Second Carousel -->
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full ">
+                      <img  src="images/banner2.png" class=" w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <div class="relative -top-20">
+                            <h2  class=" text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                            <p class=" lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                            <button class="btn  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                        </div> 
+                        <!-- Third Carousel -->
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="images/banner3.png" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <div class="relative -top-20">
+                            <h2  class=" block text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                            <p class="block lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                            <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                        </div> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <!-- Fourth Carousel -->
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img src="images/banner4.png" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96">
+                        <a href="#slide3" class="btn btn-circle">❮</a> 
+                        <div class="relative -top-20">
+                            <h2  class=" block text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                            <p class="block lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                            <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                        </div>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
