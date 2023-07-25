@@ -8,13 +8,63 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Font- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/55cf32542c.js" crossorigin="anonymous"></script>
+
+    <!-- Style  -->
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
     <title>Fruit Brust</title>
 </head>
-<body>
-    <header class="container mx-auto">
+<body class=".font-lato">
+    <header class="max-w-screen-xl mx-auto">
         <!-- Nav-bar -->
         <nav>
-
+            <div class="navbar  flex-row-reverse justify-between items-center lg:flex-row lg:bg-[#F85559] lg:rounded-full md:bg-[#F85559] md:flex-row md:rounded-full">
+                <div class="navbar-center">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class=" mr-5 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box lg:w-52">
+                      <li class="text-black text-lg font-medium"><a>Home</a></li>
+                      <li class="text-black text-lg font-medium"><a>About</a></li>
+                      <li class="text-black text-lg font-medium"><a href="">Shop</a></li>
+                      <li class="text-black text-lg font-medium"><a href="">All Fruits</a></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="flex flex-row-reverse  lg:flex-row">
+                        <img src="images/logo.png" alt="">
+                        <a class="btn btn-ghost normal-case  text-3xl lg:text-4xl font-bold text-black lg:text-white ">Fruit Burst</a>
+                  </div> -->
+                </div>
+                <div class="navbar-start hidden  lg:flex">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li tabindex="0"></li>
+                    <li class="text-white text-lg font-medium"><a>Home</a></li>
+                    <li class="text-white text-lg font-medium"><a>About </a></li>
+                    <li class="text-white text-lg font-medium"><a href="">Shop</a></li>
+                    <li class="text-white text-lg font-medium"><a href="">All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="flex   md:flex-row lg:flex-row">
+                    <img src="images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case  text-3xl lg:text-4xl font-bold text-black md:text-white lg:text-white ">Fruit Burst</a>
+                </div>
+                <div class="navbar-end hidden md:block lg:block ">
+                  <div class="md:flex justify-center md:items-center lg:flex md:justify-center items-center">
+                    <input class="rounded-3xl md:pl-6 lg:p-2 lg:m-2  lg:w-72 lg:pl-6 lg:p-2 lg:m-2  lg:w-72 text-[#121212]" type="text" placeholder="search here">
+                    <i class=" fa-solid fa-magnifying-glass relative -left-12"></i>
+                  </div>
+                </div>
+              </div>
         </nav>
     </header>
     <main class="container mx-auto"></main>
