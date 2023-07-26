@@ -24,7 +24,7 @@
     <title>Fruit Burst</title>
 </head>
 <body class=".font-lato">
-    <!-- Nav-bar -->
+    <!-- Nav-bar & Banner Section -->
     <header class="container mx-auto">
         
         <nav>
@@ -70,65 +70,76 @@
 
         <!-- Banner/Carousel Section -->
         <section class="mt-10">
-          <div>
-              <div class="carousel w-full">
-                  <!-- First Carousel -->
-                  <div id="slide1" class="carousel-item relative w-full">
-                    <img  src="images/banner1.png" class="bg-[#121212] w-full"/>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96 ">
-                      <a href="#slide4" class="btn btn-circle">❮</a> 
-                      <div class="relative -top-20">
-                          <h2  class=" block text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
-                          <p class="block lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
-                          <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
-                      </div>
-                      <!-- Second Carousel -->
-                      <a href="#slide2" class="btn btn-circle">❯</a>
-                    </div>
-                  </div> 
-                  <div id="slide2" class="carousel-item relative w-full ">
-                    <img  src="images/banner2.png" class=" w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96">
-                      <a href="#slide1" class="btn btn-circle">❮</a>
-                      <div class="relative -top-20">
-                          <h2  class=" text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
-                          <p class=" lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
-                          <button class="btn  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
-                      </div> 
-                      <!-- Third Carousel -->
-                      <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                  </div> 
-                  <div id="slide3" class="carousel-item relative w-full">
-                    <img src="images/banner3.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96">
-                      <a href="#slide2" class="btn btn-circle">❮</a>
-                      <div class="relative -top-20">
-                          <h2  class=" block text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
-                          <p class="block lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
-                          <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
-                      </div> 
-                      <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                  </div> 
-                  <!-- Fourth Carousel -->
-                  <div id="slide4" class="carousel-item relative w-full">
-                    <img src="images/banner4.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-40 md:top-56 lg:top-96">
-                      <a href="#slide3" class="btn btn-circle">❮</a> 
-                      <div class="relative -top-20">
-                          <h2  class=" block text-center font-lato font-extrabold text-xl md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
-                          <p class="block lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
-                          <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
-                      </div>
-                      <a href="#slide1" class="btn btn-circle">❯</a>
-                    </div>
-                  </div>
+          <div class="carousel w-full ">
+            <!-- First Carousel -->
+            <div id="slide1" class="carousel-item relative w-full ">
+              <img src="images/banner1.png" class="w-full" />
+              <div class="absolute rounded-lg w-full h-full bg-opacity-40 bg-[#121212]"></div>
+              <div class="absolute flex justify-around items-center transform -translate-y-1/2 left-5 right-5 top-1/2  ">
+                <div class="text-center">
+                  <h2  class=" text-center font-lato font-extrabold text-sm md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                  <p class="lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                  <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
                 </div>
-           </div>
-       </section>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-1.5 right-3 md:left-5 md:right-5 lg:left-5 lg:right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+             <!--Second Carousel  -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="images/banner2.png" class="w-full" />
+              <div class="absolute rounded-lg w-full h-full bg-opacity-40 bg-[#121212]"></div>
+              <div class="absolute flex justify-around items-center transform -translate-y-1/2 left-5 right-5 top-1/2  ">
+                <div class="text-center">
+                  <h2  class=" text-center font-lato font-extrabold text-sm md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                  <p class="lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                  <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-1.5 right-3 md:left-5 md:right-5 lg:left-5 lg:right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- Third Carousel -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <div class="absolute rounded-lg w-full h-full bg-opacity-40 bg-[#121212]"></div>
+              <img src="images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-around items-center transform -translate-y-1/2 left-5 right-5 top-1/2  ">
+                <div class="text-center">
+                  <h2  class=" text-center font-lato font-extrabold text-sm md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                  <p class="lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                  <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-1.5 right-3 md:left-5 md:right-5 lg:left-5 lg:right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- Fourth Carousel -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <div class="absolute rounded-lg w-full h-full bg-opacity-40 left-0 bg-[#121212]"></div>
+              <img src="images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-around items-center transform -translate-y-1/2 left-5 right-5 top-1/2  ">
+                <div class="text-center">
+                  <h2  class=" text-center font-lato font-extrabold text-sm md:text-3xl md:mt-20  lg:text-5xl text-white">Exotic tastes at your <br> doorstep</h2>
+                  <p class="lg:mt-5 font-medium font-lato text-sm lg:text-lg text-center text-white">We supply highly quality organic products</p>
+                  <button class="btn block  bg-[#F85559] text-white border-none text-center md:ml-16 mt-2 lg:mt-5 ml-16 lg:ml-36 ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-1.5 right-3 md:left-5 md:right-5 lg:left-5 lg:right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </section>
 
     </header>
+    
     <main class="container mx-auto">
         
         <!-- Deal Section -->
@@ -295,36 +306,38 @@
                     <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 ">
                       <!-- first member -->
                           <div class="">
-                              <img class="w-20 ml-40 lg:ml-4 md:ml-80" src="images/member1.png" alt="">
-                              <h4 class="font-bold text-base mt-2 text-white ">Awlad Hossain</h4>
-                              <p class="text-white text-sm  mb-1">Fruits Expert</p>
-                              <i class="fa-brands fa-facebook text-[#F85559] m-2 text-base rounded"></i>
-                              <i class="fa-brands fa-twitter  m-2 text-[#F85559] text-base rounded"></i>
-                              <i class="fa-brands fa-linkedin  m-2 text-[#F85559]  text-base rounded"></i>
+                              <div class="flex justify-center items-center"><img class="w-20  lg:ml-4 " src="images/member1.png" alt=""></div>
+                              <div>
+                                <h4 class="font-bold text-base mt-2 text-white ">Awlad Hossain</h4>
+                                <p class="text-white text-sm  mb-1">Fruits Expert</p>
+                                <i class="fa-brands fa-facebook text-[#F85559] m-2 text-base rounded"></i>
+                                <i class="fa-brands fa-twitter  m-1 text-[#F85559] text-base rounded"></i>
+                                <i class="fa-brands fa-linkedin  m-1 text-[#F85559]  text-base rounded"></i>
+                              </div>
                           </div>
                           <!-- Second Member -->
                           <div class="">
-                              <img class="w-20 ml-40 lg:ml-4 md:ml-80" src="images/member2.png" alt="">
+                              <div class="flex justify-center items-center"><img class="w-20  lg:ml-4 " src="images/member2.png" alt=""></div>
                               <h4 class="font-bold text-base mt-2 text-white ">Safia Chowdhury</h4>
                               <p class="text-white text-sm  mb-1">Fruits Expert</p>
                               <i class="fa-brands fa-facebook text-[#F85559] m-2 text-base rounded"></i>
-                              <i class="fa-brands fa-twitter  m-2 text-[#F85559] text-base rounded"></i>
-                              <i class="fa-brands fa-linkedin  m-2 text-[#F85559]  text-base rounded"></i>
+                              <i class="fa-brands fa-twitter  m-1 text-[#F85559] text-base rounded"></i>
+                              <i class="fa-brands fa-linkedin  m-1 text-[#F85559]  text-base rounded"></i>
                           </div>
 
                           <!-- Third Member -->
                           <div class="">
-                              <img class="w-20 ml-40 lg:ml-4 md:ml-80" src="images/member3.png" alt="">
+                              <div class="flex justify-center items-center"><img class="w-20 lg:ml-4" src="images/member3.png" alt=""></div>
                               <h4 class="font-bold text-base mt-2 text-white ">Rokib Hossain</h4>
                               <p class="text-white text-sm  mb-1">Fruits Expert</p>
                               <i class="fa-brands fa-facebook text-[#F85559] m-2 text-base rounded"></i>
-                              <i class="fa-brands fa-twitter  m-2 text-[#F85559] text-base rounded"></i>
-                              <i class="fa-brands fa-linkedin  m-2 text-[#F85559]  text-base rounded"></i>
+                              <i class="fa-brands fa-twitter  m-1 text-[#F85559] text-base rounded"></i>
+                              <i class="fa-brands fa-linkedin  m-1 text-[#F85559]  text-base rounded"></i>
                           </div>
 
                           <!-- Fourth member -->
                           <div class="">
-                              <img class="w-20 ml-40 lg:ml-4 md:ml-80" src="images/member4.png" alt="">
+                              <div class="flex justify-center items-center"><img class="w-20 lg:ml-4" src="images/member4.png" alt=""></div>
                               <h4 class="font-bold text-base mt-2 text-white ">Chaity</h4>
                               <p class="text-white text-sm  mb-1">Fruits Expert</p>
                               <i class="fa-brands fa-facebook text-[#F85559] m-2 text-base rounded"></i>
@@ -339,7 +352,8 @@
         </section>
     </main>
 
-    <footer class="footer footer-center p-10 bg-[#121212] text-white  text-base-content rounded">
+    <!-- Footer Section -->
+     <footer class="footer footer-center p-10 bg-[#121212] text-white  text-base-content rounded">
       <div class="grid grid-flow-col gap-4">
         <img src="images/logo.png" alt="">
         <p class="text-3xl font-bold text-white">Fruit Burst</p>
